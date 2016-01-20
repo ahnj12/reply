@@ -11,7 +11,6 @@ var get_interface = function(stdin, stdout) {
  * @param {string} message - Message to prompt the user with.
  * @param {function()} callback - Function that takes the error and user answer and
  *     runs after user gives answer.
- * @returns {Boolean} callback(err) Function will return false if err is true.
  * 
  */
 var confirm = exports.confirm = function(message, callback) {
