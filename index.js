@@ -9,9 +9,8 @@ var get_interface = function(stdin, stdout) {
 /**
  * Prompts the user with the given message and waits for the user to respond.
  * @param {string} message - Message to prompt the user with.
- * @param {function()} callback - Function that takes the error and user answer and
- *     runs after user gives answer.
- * 
+ * @param {function()} callback - Function that takes the error and user answer 
+ *     and runs after user gives answer.
  */
 var confirm = exports.confirm = function(message, callback) {
 
@@ -40,9 +39,8 @@ var confirm = exports.confirm = function(message, callback) {
  * @param {String} options."x".message - Message for a the prompt
  * @param {String} options."x".type - Type the user's answer must be in
  * @param {T} options."x".default - default value if no given response
- * @param {Object} options."x".depends_on - Will not prompt the next question
+ * @param {Object} options."x".depends_on - Will not prompt the next question 
  *     unless the requirements in the object are met.
- * 
  */
 var get = exports.get = function(options, callback) {
 
